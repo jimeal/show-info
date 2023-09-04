@@ -1,0 +1,26 @@
+{
+  "name": "parcel-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "staticFiles": {
+    "staticPath": "assets",
+    "staticOutDir": "assets"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.7.1"
+  }
+}
